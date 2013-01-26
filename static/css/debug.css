@@ -1,0 +1,29 @@
+
+/* Debug */
+
+div.debug-window div.debug-tabs a
+{
+	display:inline-block;
+	margin-right:5px;
+	padding:3px 5px;
+	margin-top:5px;
+}
+
+div.debug-window div.debug-tabs
+{
+	padding:10px 20px;
+}
+
+div.debug-window pre
+{
+	margin-top:0px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	font-size:12px;
+}
+
+span.debug-red
+{
+	color:red;
+}
+
+/* End Debug */
