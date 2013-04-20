@@ -86,6 +86,9 @@ koinkoin.prompt.create = function(data)
 	
 	prompt.addClass('prompt prompt-' + data.type);
 	
+	if(data.class != null)
+		prompt.addClass(data.class);
+	
 	if(data.id == "")
 		prompt.attr('id', 'prompt-' + koinkoin.prompt.i);
 	else
@@ -155,6 +158,7 @@ koinkoin.showMyLinks = function()
 											id: "mylinks",
 											width: "50%",
 											height: "80%",
+											class: "full",
 											buttons:
 											{	"Close":function(event)
 														{

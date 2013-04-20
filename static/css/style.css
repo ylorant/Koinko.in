@@ -145,6 +145,11 @@ p.slogan
 	font-style:italic;
 }
 
+div.prompt.full
+{
+	height: 80%;
+}
+
 div.prompt
 {
 	position:absolute;
@@ -153,7 +158,6 @@ div.prompt
 	left:25%;
 	min-width:250px;
 	min-height:150px;
-	height: 80%;
 	overflow: auto;
 	background-color:white;
 	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.4);
